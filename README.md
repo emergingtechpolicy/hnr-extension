@@ -1,9 +1,13 @@
-#Chrome Extention Link : https://github.com/chuabingquan/ext
-# A.I. Blocker
-* Ang Ming Liang, New Jun Jie, Chua Bing Quan, Toh Bing Cheng
-### Applies adversarial patches and noise to reduce effectiveness of public machine learning scrapers and fight against modern invasion of data privacy.
-## Problem
-If you use social media, you should know about the 10-year challenge, where people compare profile pictures from 10 years ago and now. All these data, YOUR DATA, could be mined to train facial recognition algorithms on age progression and age recognition. Think of the mass data extraction of over 70 million US Facebook users during the Cambridge Analytica scandal. This is a major concern of data privacy.
+This project started off as a NUS Hack n Roll Hackathon project by Ang Ming Liang, New Jun Jie, Chua Bing Quan and Toh Bing Cheng. It applies adversarial patches and noise to images to reduce the effectiveness of public machine learning scrapers – empowering individuals to fight against modern invasion of data privacy. Essentially, to the user it means that it will mask your uploaded image from image recognition systems while appearing the same to the human eye.
+
+The project is currently maintained here and further researched on by AI researcher Ang Ming Liang (@Neoanarika)
+
+## Problem we are solving
+In January 2019 IBM released a data set of almost a million photos, scraped from the photo-sharing website Flickr without consent from the subjects and the photographers, and pitched this as part of efforts to reduce the problem of bias within face recognition. 
+
+Social media platforms run widespread image recognition systems on uploaded images, and are currently doing it so well that Facebook could use those systems to contribute to fighting revenge porn. 
+
+Some might think these image recognition systems run on public image data are an infringement of their privacy.
 
 ## Solution
 Our solution to this social problem is an A.I. Blocker, to trick the algorithms into thinking your photos mean something else. We present a Chrome extension that “masks” your photos, so that machine learning algorithms classify them wrongly, yet appear completely the same to the human eye.
