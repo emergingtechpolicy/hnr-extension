@@ -1,3 +1,5 @@
+# Chrome Extention for Privacy from Image Recognition Systems through Adversarial Evasion
+
 This project started off as a NUS Hack n Roll Hackathon project by Ang Ming Liang, New Jun Jie, Chua Bing Quan and Toh Bing Cheng. It applies adversarial patches and noise to images to reduce the effectiveness of public machine learning scrapers – empowering individuals to fight against modern invasion of data privacy. Essentially, to the user it means that it will mask your uploaded image from image recognition systems while appearing the same to the human eye.
 
 The project is currently maintained here and further researched on by AI researcher Ang Ming Liang (@Neoanarika)
