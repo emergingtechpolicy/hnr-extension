@@ -20,12 +20,7 @@ The user is given 2 choices: apply an Adversarial Patch to his/her image or even
 ## Future Work
 Our A.I. Blocker performs less effectively against some adversarial defenses, e.g. Robust Optimization and certificates.[4] To overcome this, we can apply 2nd-order gradient information in our future work to generate better-performing adversaries against these defenses. One feature that we did not manage to fully implement was a Universal Adversarial Attack to pre-compute and transform the images in a O(1) constant-time operation for the adversarial step.[1] However, this comes at the expense of less robust A.I. Blocker. Other than improvements to the Adversarial Noise approach, there is also room for improvement for the Adversarial Patch approach. One such improvement can be the use of clever geometry to blend the patch into the image more seamlessly, such as an Adversarial Frame around text. There are also better software engineering practices to implement the backend to reduce the number of times that TensorFlow, VGG and DenseNet are loaded in.
 
-## Instructions
-```
-git clone https://github.com/bingcheng45/hnr-extension.git
-cd ./hnr-extension
-docker build -t Dockerfile .
-```
+
 ## Results
 ![ai blocker examples](https://user-images.githubusercontent.com/27071473/51434321-0e7a9780-1c99-11e9-93ee-48b866c292d9.png)
 
